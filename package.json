@@ -1,0 +1,28 @@
+{
+  "name": "webcomponents-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-filesize": "^6.0.1",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "lit-element": "^2.0.0-rc.3",
+    "lit-html": "^1.0.0-rc.2"
+  },
+  "peerDependencies": {}
+}
